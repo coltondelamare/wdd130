@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --primary-color: #2CACC9;
+    --secondary-color: #576060;
+    --accent1-color: #F4E9E1;
+    --accent2-color: #030027;
+
+    --heading-font: 'Outfit', sans-serif;
+    --paragraph-font: 'Outfit', sans-serif;
+
+    --nav-background-color: #2CACC9;
+    --nav-link-color: #576060;
+    --nav-hover-link-color: #F4E9E1;
+    --nav-hover-background-color: #030027;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+}
+.hero article img {
+    float: right;
+}
