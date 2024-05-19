@@ -16,6 +16,27 @@
 
 }
 
+header {
+	display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 275px;
+    align-items: center;
+    background-color: var(--nav-background-color);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: var(--nav-link-color);
+    padding: 10px;
+    border: 1px solid black;
+
+}
+header img {
+    border: solid black;
+}
+
 body {
     font-family: var(--paragraph-font);
 }
@@ -35,19 +56,34 @@ a {
     text-decoration: none;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero img {
     display: block;
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
 .hero h1 {
-    position: absolute;
+    position: relative;
 }
 
 .hero article {
-    position: absolute;
+    position: relative;
 }
 .hero article img {
     float: right;
+}
+
+.history section {
+    display: flex;
+    flex-direction: row;
+}
+
+.adventure section {
+    display: flex;
 }
