@@ -9,8 +9,8 @@
     --heading-font: 'Outfit', sans-serif;
     --paragraph-font: 'Outfit', sans-serif;
 
-    --nav-background-color: #2CACC9;
-    --nav-link-color: #576060;
+    --nav-background-color: #7cd3ff;
+    --nav-link-color: #000000;
     --nav-hover-link-color: #F4E9E1;
     --nav-hover-background-color: #030027;
 
@@ -33,6 +33,12 @@ nav {
     border: 1px solid black;
 
 }
+
+.navlink, a {
+    color: var(--nav-link-color);
+}
+
+
 header img {
     border: solid black;
 }
@@ -98,16 +104,18 @@ form {
     display: grid;
 }
 
-button {
+.button {
     display: block;
+    width: 115px;
+    height: 25px;
+    background: navy;
+    padding: 1.2rem;
+    text-align: center;
+    border-radius: .5rem;
+    color: white;
+    font-weight: bold;
     margin: auto;
     margin: 1rem;
-    background-color: navy;
-    color: #fff;
-    border: none;
-    border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.2rem;
 }
 
 button:hover {
@@ -147,7 +155,7 @@ table {
     background-color: rgb(237 238 242);
   }
 
-  .button {
+  .buttonlocation {
     display: flex;
     justify-content: center;
     align-items: center;
